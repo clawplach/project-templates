@@ -38,12 +38,15 @@ The `${name}.tar.gz` package can now be distributed by many means (HTTPS,FTPS,SC
 ```sh
 #!/bin/sh -eu
 
-echo "Enter the project template file URL: (e.g. https://example.com/template.tgz)"
-read url && wget $url | tar -x -z
+echo "Enter the project template file URL:"
+read url && wget ${url} | tar -x -z
 ```
 
 ### Implementations
-[Apache Maven Archetype Plugin](https://maven.apache.org/archetype/maven-archetype-plugin/)
+* [j2](https://bitbucket.org/cavanaug/j2)
+* [Apache Maven Archetype Plugin](https://maven.apache.org/archetype/maven-archetype-plugin/)
+* [Buildout](http://www.buildout.org/)
+* [Yeoman](http://yeoman.io/)
 
 ## File Templates
   Help me fill this section…
