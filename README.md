@@ -1,8 +1,6 @@
 Project Templates
 =================
 
-Project directory/file templates.
-
 ## What is the goal of this repository?
 The goal of this repository is to classify and enumerate methods of (re)generating project archetypes.
 
@@ -43,22 +41,29 @@ read url && wget ${url} | tar -x -z
 ```
 
 ### Implementations
-* [j2](https://bitbucket.org/cavanaug/j2)
-* [Apache Maven Archetype Plugin](https://maven.apache.org/archetype/maven-archetype-plugin/)
-* [Buildout](http://www.buildout.org/)
-* [Yeoman](http://yeoman.io/)
+| name | platform | directory template | text file template | permissions |
+|------|:--------:|:------------------:|:------------------:|:-----------:|
+| [j2](https://bitbucket.org/cavanaug/j2) | all | yes | yes | ? |
+| [Apache Maven Archetype Plugin](https://maven.apache.org/archetype/maven-archetype-plugin/) | all | yes | yes | yes |
+| [Buildout](http://www.buildout.org/) | all | ? | ? | ? |
+| [Yeoman](http://yeoman.io/) | all (node.js) | ? | ? | ? |
+
 
 ## File Templates
   Help me fill this section…
 
+
 ### General Purpose
   Help me fill this section…
+
 
 ### Specialized
   Help me fill this section…
 
+
 #### XML
   Help me fill this section…
+
 
 #### SGML
   Help me fill this section…
