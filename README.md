@@ -39,7 +39,7 @@ The `${name}.tar.gz` package can now be distributed by many means (HTTPS,FTPS,SC
 #!/bin/sh -eu
 
 echo "Enter the project template file URL: (e.g. https://example.com/template.tgz)"
-wget $url | tar -x -z
+read url && wget $url | tar -x -z
 ```
 
 ### Implementations
