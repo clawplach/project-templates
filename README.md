@@ -29,16 +29,16 @@ There are two different was to describe a project's directory schema:
   tar -c -z -f ${name}.tar.gz ${name}
   ```
 
-The `${name}.tar.gz` package can now be distributed by many means (HTTPS,FTPS,SCP,…).
+  The `${name}.tar.gz` package can now be distributed by many means (HTTPS,FTPS,SCP,…).
 
-… and then later expanded:
+  … and then later expanded:
 
-```sh
-#!/bin/sh -eu
+  ```sh
+  #!/bin/sh -eu
 
-echo "Enter the project template file URL:"
-read url && wget ${url} | tar -x -z
-```
+  echo "Enter the project template file URL:"
+  read url && wget ${url} | tar -x -z
+  ```
 
 ### Implementations
 | name | platform | directory template | text file template | permissions |
