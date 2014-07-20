@@ -41,29 +41,19 @@ There are two different was to describe a project's directory schema:
   ```
 
 ### Implementations
-| name | platform | directory template | text file template | permissions |
-|------|:--------:|:------------------:|:------------------:|:-----------:|
-| [j2](https://bitbucket.org/cavanaug/j2) | all | yes | yes | ? |
-| [Apache Maven Archetype Plugin](https://maven.apache.org/archetype/maven-archetype-plugin/) | all | yes | yes | yes |
-| [Buildout](http://www.buildout.org/) | all | ? | ? | ? |
-| [Yeoman](http://yeoman.io/) | all (node.js) | ? | ? | ? |
+| name | platform | permissions |
+|------|:--------:|:------------------:|
+| [j2](https://bitbucket.org/cavanaug/j2) | all | yes |
+| [Apache Maven Archetype Plugin](https://maven.apache.org/archetype/maven-archetype-plugin/) | all | yes |
+| [Buildout](http://www.buildout.org/) | all | ? |
+| [Yeoman](http://yeoman.io/) | all (node.js) | ? |
 
 
-## File Templates
-  Help me fill this section…
+## Text File Templates
 
-
-### General Purpose
-  Help me fill this section…
-
-
-### Specialized
-  Help me fill this section…
-
-
-#### XML
-  Help me fill this section…
-
-
-#### SGML
-  Help me fill this section…
+### Implementations
+| name | platform |
+|------|:--------:|
+| [Velocity](http://velocity.apache.org/) | all |
+| [FreeMarker](http://freemarker.org/) | all |
+| [stringtemplate](http://www.stringtemplate.org/) | all |
